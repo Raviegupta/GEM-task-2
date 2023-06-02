@@ -244,6 +244,75 @@ button {
 }
 
 
+/* css for pricing section */
+.price-section {
+    flex-direction: column;
+    gap: 10px;
+}
+.price-section h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 25px;
+
+}
+
+.price-cards {
+    gap: 25px;
+    width: 100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.price-cards .card {
+    height: 500px;
+    box-shadow: 0 0 4px;
+    border-radius: 10px;
+}
+
+.card-heading {
+    margin: auto;
+}
+
+.card-price {
+    justify-content: space-around;
+    margin: 25px;
+    color:#e25a41;
+    font-size: 1.7rem;
+}
+.card .lists {
+    margin-left: 25px;
+}
+.card .lists li {
+    font-size: 1.2rem;
+    line-height: 2;
+}
+
+
+.hrm {
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #e25a41, #9d228e);
+    border: none;
+}
+.hrm .card-heading {
+    background-image: none;
+    color: #e25a41;
+    box-shadow: 0 0 4px;
+}
+
+.hrm .card-price {
+    color: white;
+}
+
+.hrm .lists ul li {
+    color: white;
+}
+
+
+
+
+
+
+
 
 
 
