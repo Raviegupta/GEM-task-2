@@ -1,0 +1,244 @@
+/* --------------- GENERAL CSS STYLES STARTS ---------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.max-container-size {
+    max-width: 1100px;
+    /* display: flex; */
+    margin: auto auto;
+}
+
+button {
+    cursor: pointer;
+}
+.btn {
+    padding: 12px;
+    font-size: 1.3rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #e25a41, #9d228e);
+}
+
+
+/* css for navbar */
+.navbar {
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.navbar .right-side ul {
+    justify-content: space-between;
+    gap: 30px;
+    font-size: 1.1rem;   
+}
+
+
+/* css for below-header-section */
+.below-header-section {
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.below-header-section .left-part p:first-child {
+    font-size: 1rem;
+    color: rgba(0, 0, 255, 0.692);
+    font-weight: 600;
+}
+.below-header-section .left-part h1 {
+    margin: 20px auto;
+    font-size: 3rem;
+    color: #333;
+
+}
+.below-header-section .left-part p:nth-child(3){
+    color: #7388b5;
+    line-height: 2;
+    font-size: 1.1rem;
+}
+.know-more-btn {
+    width: 150px;
+    margin-right: 25px;
+}
+#how-it-works {
+    color: #555;
+    font-size: 1.2rem;
+    margin-left: 5px;
+}
+
+
+/* css for section feautures */
+.features {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.feature-1 {
+    padding: 15px;
+    box-shadow: 0.5px 0.5px 1px;
+    border-radius: 10px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.feature-1 p {
+    margin: 10px 0;
+    color: #c09ba7;
+    font-size: 1.2rem;
+}
+.feature-1 .img {
+    justify-content: space-around;
+    margin: auto;
+}
+.feature-1 h1 {
+    text-align: center;
+    padding: 15px;
+}
+.feature-1 p:last-child {
+    font-size: 1rem;
+    color: #c09ba7;
+    line-height: 1.5;
+}
+
+
+/* css for automation section */
+.automation {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.automation .left-side h1 {
+    color: rgb(59, 59, 228);
+    font-size: 1.4rem;
+    padding-bottom: 20px;
+}
+.automation .left-side p {
+    color: #c09ba7;
+    font-size: 1.1rem;
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+.automation .left-side .solutions {
+    color: #c09ba7;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    gap: 50px;
+    text-align: center;
+}
+.automation .left-side .solutions span {
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* css for data section */
+.data {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.data div{
+    width: 25%;
+    text-align: center;
+}
+.data div h1{
+    font-size: 4rem;
+    margin-top: 15px;
+}
+.data div h1 span{
+    color: tomato;
+}
+.data div p{
+    font-size: 1.4rem;
+    color: #777;
+    margin-bottom: 15px;   
+}
+
+
+/* css for follow-up section */
+.follow-up-wrapper {
+    background-color: #f5f8ff;
+    padding: 50px 0;
+}
+.follow-up {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* border: 2px solid red; */
+    gap: 30px;
+}
+
+.follow-up .right-side h1 {
+    color: rgb(59, 59, 228);
+    font-size: 1.4rem;
+    padding-bottom: 20px;
+}
+
+.follow-up .right-side:nth-child(2) {
+    color: #222;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+.follow-up .right-side p {
+    padding-top: 20px;
+    color: #c09ba7;
+    font-size: 1.1rem;
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+.follow-up .right-side .solutions {
+    color: #c09ba7;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    gap: 50px;
+    text-align: center;
+}
+.follow-up .right-side .solutions span {
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+/* css for working section */
+.working{
+    padding: 50px 0;
+    flex-direction: column;
+}
+.working h1 {
+    font-size: 2.7rem;
+    flex-direction: column;
+}
+.working div{
+    text-align: center;
+}
+
+/* css for choosing us */
+.why-section p, .why-section h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.why-section p{
+    color: rgb(92, 92, 216);
+    font-size: 1.2rem;
+}
+.why-section h1 {
+    font-size: 2.6rem;
+}
