@@ -242,3 +242,17 @@ button {
 .why-section h1 {
     font-size: 2.6rem;
 }
+
+
+
+
+
+
+/* css for footer section */
+.footer {
+    height: 100px;
+    background-color: #f4f7fe;
+}
+.footer p {
+    margin: auto;
+}
