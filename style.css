@@ -311,7 +311,7 @@ button {
 }
 
 .price-cards .card {
-    height: 500px;
+    height: auto;
     box-shadow: 0 0 1px;
     border-radius: 10px;
     background-color: #ffffff;
@@ -484,25 +484,115 @@ button {
 /* ------------------------------------------------------- */
 
 
+.ham {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
 
+.hamburger-item {
+    border: 1px solid gray;
+    width:max-content;
+    padding: 15px;
+    font-size: 1.1rem;
+    color: rgb(36, 32, 32);
+    font-weight: bold; 
+    box-shadow: 0 0 4px; 
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(209, 36, 36));
+    position: absolute;
+    right: 15px;
+    top: 70px;
+    transition: 0.5s;
+    border: none;
+}
 
 
 
 /* ------------CSS FOR RESPONSIVE WEB DESIGN-------------- */
 /* ------------------DESIGN FOR TABS---------------------- */
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1150px) {
     body {
         padding-left: 50px;
         padding-right: 50px;
     }
-    .footer {
-        padding-left: -50px;
-        padding-right: -50px;
+    .solutions span {
+        font-size: 0.8rem;
+    }
+    .automation .img {
+        width: 50%;
+    }
+    .automation img {
+        width: fit-content;
+    }
+
+}
+@media only screen and (max-width: 950px) and (min-width: 850px) {
+    .navbar .right-side ul {
+        gap: 15px;
+        /* border: 1px solid red; */
+    }
+    .automation-img {
+        width: 50%;
+        border: 1px solid red;
+    }
+    .automation-img img {
+        width: 350px;
+        border: 1px solid blue;
+    }
+  
+    .data div h1 {
+        font-size: 1.5rem;
+    }
+    .data div p {
+        font-size: 18px;
+    }
+    .data div h1 span {
+        font-size: 1.8rem;
     }
 
 }
 
+@media only screen and (max-width: 850px) {
+    .below-header-section {
+        flex-direction: column;
+    }
+    .features {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+    .automation {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .price-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+    .price-cards .card {
+        width: 60%;
+        padding-left: 30px;
+    }
+    .qna-body {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 
+    .data div h1 {
+        font-size: 1.5rem;
+    }
+    .data div p {
+        font-size: 18px;
+    }
+    .data div h1 span {
+        font-size: 1.8rem;
+    }
+
+    .navbar .right-side {
+        display: none;
+    }
+}
 
 
 
