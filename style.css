@@ -474,7 +474,7 @@ button {
 .footer {
     height: 100px;
     background-color: #f4f7fe;
-    background-color: aqua;
+    /* background-color: aqua; */
     /* box-shadow: 0 0 1px; */
     /* border: 1px solid red; */
 }
