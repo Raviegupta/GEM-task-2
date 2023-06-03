@@ -5,6 +5,9 @@ const ans = document.querySelectorAll('.ans');
 const one = document.querySelectorAll('.one');
 const ques = document.querySelectorAll('.ques');
 
+const hamburgerIcon = document.querySelector('.hamburger-icon'); 
+const hamburgerItem = document.querySelector('.hamburger-item');
+
 
 // addEventListener
 for(let i=0; i<plus.length; i++) {
@@ -31,3 +34,11 @@ for(let i=0; i<minus.length; i++) {
 
     })
 }    
+
+
+hamburgerIcon.addEventListener('click', () => {
+    if(hamburgerItem.classList.contains('hidden')) hamburgerItem.classList.remove('hidden');
+    else hamburgerItem.classList.add('hidden');
+})
+
+console.log(hamburgerItem);

@@ -559,7 +559,7 @@ button {
     .features {
         display: flex;
         flex-direction: column;
-        width: 70%;
+        width: 90%;
     }
     .automation {
         flex-direction: column;
@@ -571,7 +571,7 @@ button {
         gap: 60px;
     }
     .price-cards .card {
-        width: 60%;
+        width: 90%;
         padding-left: 30px;
     }
     .qna-body {
@@ -591,6 +591,9 @@ button {
 
     .navbar .right-side {
         display: none;
+    }
+    .hamburger-icon {
+        display: block;
     }
 }
 
