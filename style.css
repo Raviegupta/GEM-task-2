@@ -512,8 +512,8 @@ button {
 /* ------------------DESIGN FOR TABS---------------------- */
 @media only screen and (max-width: 1150px) {
     body {
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
     .solutions span {
         font-size: 0.8rem;
