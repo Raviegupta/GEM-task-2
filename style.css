@@ -578,6 +578,9 @@ button {
         display: grid;
         grid-template-columns: 1fr;
     }
+    .follow-up {
+        flex-direction: column;
+    }
 
     .data div h1 {
         font-size: 1.5rem;
