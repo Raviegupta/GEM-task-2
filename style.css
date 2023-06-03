@@ -11,6 +11,9 @@
     align-items: center;
 }
 
+body {
+    background-color: #fcfcfd;
+}
 ul li {
     list-style: none;
     cursor: pointer;
@@ -37,9 +40,11 @@ button {
     border-radius: 5px;
     background-image: linear-gradient(to right, #e25a41, #9d228e);
 }
+/* ------------------------------------------------------- */
 
 
-/* css for navbar */
+
+/* ------------------- css for navbar -------------------- */
 .navbar {
     justify-content: space-between;
     padding: 20px 0;
@@ -49,11 +54,13 @@ button {
     gap: 30px;
     font-size: 1.1rem;   
 }
+/* ------------------------------------------------------- */
 
 
-/* css for below-header-section */
+
+/* ---------css for section which is below header--------- */
 .below-header-section {
-    /* border: 1px solid red; */
+    /* border: 2px solid red; */
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -82,9 +89,11 @@ button {
     font-size: 1.2rem;
     margin-left: 5px;
 }
+/* ------------------------------------------------------- */
 
 
-/* css for section feautures */
+
+/* ---------------css for section features---------------- */
 .features {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -95,13 +104,14 @@ button {
 }
 .feature-1 {
     padding: 15px;
-    box-shadow: 0.5px 0.5px 1px;
+    box-shadow: 0px 0px 2px;
     border-radius: 10px;
-    padding-top: 35px;
-    padding-bottom: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
 }
 .feature-1 p {
-    margin: 10px 0;
+    margin: 20px 0;
     color: #c09ba7;
     font-size: 1.2rem;
 }
@@ -118,9 +128,11 @@ button {
     color: #c09ba7;
     line-height: 1.5;
 }
+/* ------------------------------------------------------- */
 
 
-/* css for automation section */
+
+/* -------------- css for automation section -------------- */
 .automation {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -148,9 +160,11 @@ button {
     gap: 10px;
     margin-bottom: 10px;
 }
+/* ------------------------------------------------------- */
 
 
-/* css for data section */
+
+/* ------------------ css for data section --------------- */
 .data {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -171,9 +185,11 @@ button {
     color: #777;
     margin-bottom: 15px;   
 }
+/* ------------------------------------------------------- */
 
 
-/* css for follow-up section */
+
+/* ------------- css for follow-up section---------------- */
 .follow-up-wrapper {
     background-color: #f5f8ff;
     padding: 50px 0;
@@ -216,21 +232,47 @@ button {
     gap: 10px;
     margin-bottom: 10px;
 }
+/* ------------------------------------------------------- */
 
-/* css for working section */
+
+
+/* -------------- css for working section ----------------- */
+.work {
+    /* border: 1px solid red; */
+    margin-bottom: 70px;
+}
 .working{
     padding: 50px 0;
     flex-direction: column;
+    position: relative;
+    margin-bottom: 120px;
 }
 .working h1 {
     font-size: 2.7rem;
     flex-direction: column;
+    margin-bottom: 0;
+    /* border: 1px solid red; */
 }
 .working div{
     text-align: center;
 }
 
-/* css for choosing us */
+.top-how {
+    background-image: linear-gradient(to left, #e25a41, #9d228e);
+    height: 450px;
+    width: 50%;
+    margin: auto;
+    border-radius: 300px;
+    transform: rotate(70deg);
+    position: absolute;
+    top: 50px;
+    z-index: -1;
+}
+/* ------------------------------------------------------- */
+
+
+
+/* ----------- css for choosing us section---------------- */
 .why-section p, .why-section h1 {
     text-align: center;
     margin-bottom: 15px;
@@ -242,9 +284,15 @@ button {
 .why-section h1 {
     font-size: 2.6rem;
 }
+.why-section {
+    margin-bottom: 100px;
+    /* border: 1px solid red; */
+}
+/* ------------------------------------------------------- */
 
 
-/* css for pricing section */
+
+/* --------------- css for pricing section --------------- */
 .price-section {
     flex-direction: column;
     gap: 10px;
@@ -253,7 +301,6 @@ button {
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 25px;
-
 }
 
 .price-cards {
@@ -265,8 +312,9 @@ button {
 
 .price-cards .card {
     height: 500px;
-    box-shadow: 0 0 4px;
+    box-shadow: 0 0 1px;
     border-radius: 10px;
+    background-color: #ffffff;
 }
 
 .card-heading {
@@ -287,7 +335,6 @@ button {
     line-height: 2;
 }
 
-
 .hrm {
     border-radius: 5px;
     background-image: linear-gradient(to right, #e25a41, #9d228e);
@@ -302,26 +349,173 @@ button {
 .hrm .card-price {
     color: white;
 }
-
 .hrm .lists ul li {
     color: white;
 }
+/* ------------------------------------------------------- */
 
 
 
+/* ----------------- CSS for FAQs Secion ----------------- */
+.faq {
+    /* border: 1px solid #999; */
+    margin-top: 120px;
+}
+
+.faq h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 10px;
+    margin-bottom: 25px;
+}
+
+.qna-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.qna-body .one {
+    padding: 15px;
+    border-radius: 15px;
+    /* box-shadow: 0 0 1px; */
+    background-color: rgb(250, 245, 235);
+    height: 50px;
+    height: max-content;
+}
+ .qna-body .ques {
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.89);
+ }
+ .qna-body .ans {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    color: rgba(0, 0, 0, 0.89);
+ }
+
+.hidden {
+    display: none;
+}
+
+.plus, .minus {
+    cursor: pointer;
+}
+/* ------------------------------------------------------- */
 
 
 
+/* ------------ styling contact form section ------------- */
+.contact-form {
+    /* border: 1px solid red; */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+}
+.contact-form p{
+    text-align: center;
+    font-size: 2.2rem; 
+    color: #222; 
+    margin-bottom: 120px;
+}
+.contact-form form {
+    flex-direction: column;
+    gap: 15px; 
+    width: 60%;
+    margin: auto;
+    padding: 70px;
+    /* border: 1px solid #999; */
+    border-radius: 15px;
+    box-shadow: 0 0 1px;
+    background-color: white;
+}
+.contact-form form input{
+    width: 100%;
+    height: 40px;
+    padding: 7px;
+    padding-left: 15px;
+    font-size: 1rem;
+    border-radius: 30px;
+    border: transparent;
+    background-color: whitesmoke;
+    box-shadow: 0 0 1.5px;
+}
+#text-area {
+    width: 100%;
+    border-radius: 30px;
+    border: transparent;
+    box-shadow: 0 0 1.5px;
+    padding: 14px;
+    font-size: 1rem;
+    box-shadow: 0 0 1.5px;
+}
+.contact-form form button {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.css-design {
+    background-image: linear-gradient(to left, #e25a41, #9d228e);
+    height: 270px;
+    width: 60%;
+    margin: auto;
+    border-radius: 180px;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: rotate(70deg);
+    z-index: -1;
+}
+/* ------------------------------------------------------- */
 
 
 
-
-
-/* css for footer section */
+/* --------------- css for footer section ---------------- */
 .footer {
     height: 100px;
     background-color: #f4f7fe;
+    background-color: aqua;
+    /* box-shadow: 0 0 1px; */
+    /* border: 1px solid red; */
 }
 .footer p {
     margin: auto;
 }
+/* ------------------------------------------------------- */
+
+
+
+
+
+
+/* ------------CSS FOR RESPONSIVE WEB DESIGN-------------- */
+/* ------------------DESIGN FOR TABS---------------------- */
+@media only screen and (max-width: 1100px) {
+    body {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .footer {
+        padding-left: -50px;
+        padding-right: -50px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------- */
