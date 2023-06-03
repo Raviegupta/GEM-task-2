@@ -598,6 +598,9 @@ button {
     .hamburger-icon {
         display: block;
     }
+    .contact-form  form{
+        width: 100%;
+    }
 }
 
 
