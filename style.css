@@ -509,7 +509,6 @@ button {
 
 
 /* ------------CSS FOR RESPONSIVE WEB DESIGN-------------- */
-/* ------------------DESIGN FOR TABS---------------------- */
 @media only screen and (max-width: 1150px) {
     body {
         padding-left: 30px;
@@ -526,6 +525,8 @@ button {
     }
 
 }
+
+
 @media only screen and (max-width: 950px) and (min-width: 850px) {
     .navbar .right-side ul {
         gap: 15px;
@@ -551,6 +552,7 @@ button {
     }
 
 }
+
 
 @media only screen and (max-width: 850px) {
     .below-header-section {
@@ -590,7 +592,20 @@ button {
     }
     .data div h1 span {
         font-size: 1.8rem;
+    }    
+    
+    .data{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
+    .data div {
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid red; */
+        width: 100%;
+        gap: 10px;
+    }
+
 
     .navbar .right-side {
         display: none;
@@ -601,20 +616,36 @@ button {
     .contact-form  form{
         width: 100%;
     }
+    .contact-form form input, .contact-form form textarea, .contact-form form button {
+        width: 90%;
+    }
+
+ 
+    .automation-img {
+        width: 100%;
+        border: 3px solid red;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .automation-img img {
+        width: max-content;
+        border: 3px solid blue;
+        margin: auto;
+        
+    }
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ------------------------------------------------------- */
+@media only screen and (max-width: 560px) {
+    .automation-img img {
+        width: 400px;
+        border: 3px solid yellow;  
+    }
+}
+@media only screen and (max-width: 480px) {
+    .automation-img img {
+        width: 300px;
+        border: 3px solid blue;  
+    }
+}
