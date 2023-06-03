@@ -623,14 +623,14 @@ button {
  
     .automation-img {
         width: 100%;
-        border: 3px solid red;
+        /* border: 3px solid red; */
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
     .automation-img img {
         width: max-content;
-        border: 3px solid blue;
+        /* border: 3px solid blue; */
         margin: auto;
         
     }
@@ -639,13 +639,13 @@ button {
 
 @media only screen and (max-width: 560px) {
     .automation-img img {
-        width: 400px;
-        border: 3px solid yellow;  
+        width: 360px;
+        /* border: 3px solid yellow;   */
     }
 }
 @media only screen and (max-width: 480px) {
     .automation-img img {
         width: 300px;
-        border: 3px solid blue;  
+        /* border: 3px solid blue;   */
     }
 }
